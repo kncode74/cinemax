@@ -1,4 +1,5 @@
 import 'package:cinemax/base/base_view.dart';
+import 'package:cinemax/commons/constants/base_color.dart';
 import 'package:cinemax/commons/enum.dart';
 import 'package:cinemax/models/cinema_response.dart';
 import 'package:cinemax/ui/_widget/cinema_item_list.dart';
@@ -10,8 +11,10 @@ class CinemaListView extends BaseView<CinemaListVM> {
   @override
   Widget render(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF1F1D2B),
+      backgroundColor: context.background,
       appBar: AppBar(
+        centerTitle: true,
+        backgroundColor:context.background,
         title: TextFormField(
           onChanged: controller.searchCinema,
           controller: controller.searchController,
@@ -25,9 +28,9 @@ class CinemaListView extends BaseView<CinemaListVM> {
               borderRadius: BorderRadius.circular(24),
               borderSide: BorderSide.none,
             ),
-            hintStyle: TextStyle(color: Colors.white),
+            hintStyle: TextStyle(color: context.primaryText),
           ),
-          style: TextStyle(color: Colors.white),
+          style: TextStyle(color: context.primaryText),
         ),
         actions: [
           TextButton(
@@ -40,8 +43,6 @@ class CinemaListView extends BaseView<CinemaListVM> {
             ),
           ),
         ],
-        centerTitle: true,
-        backgroundColor: Color(0xFF1F1D2B),
       ),
       body: _listViewContent(),
     );
