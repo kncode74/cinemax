@@ -1,16 +1,30 @@
-# cinemax
+# 🎬 Cinemax App
 
-A new Flutter project.
+A simple yet beautiful Flutter app for browsing and discovering movies playing in cinemas.  
+This project focuses on **clean UI**, **local search**, and a responsive **movie listing experience**.
 
-## Getting Started
+<div align="center"> 
+  <img src="https://github.com/user-attachments/assets/8631b91c-4cee-4b50-9aa3-14401ac7d599" width="250" />
+  <img src="https://github.com/user-attachments/assets/761c3c4b-3020-4527-a09a-81404119daab" width="250" />
+  <img src="https://github.com/user-attachments/assets/57d59caa-042b-4979-b4c6-22089e1561ab" width="250" />
+ 
+</div>
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🖼️ **Cinema list** with movie posters and details
+- 🔍 **Local search bar** to filter movies instantly
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📦 Tech Stack
+
+- Flutter (with GetX for state management)
+- MVVM Architecture
+- Dart
+
+---
+
+## 🛠️ Getting Started
