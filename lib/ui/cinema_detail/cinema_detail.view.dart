@@ -101,7 +101,7 @@ class CinemaDetailView extends BaseView<CinemaDetailVM> {
     return Row(
       children: [
         Icon(icon, color: Colors.lightGreenAccent),
-        VSpacings.xxSmall,
+        HSpacings.xxSmall,
         Text(
           text ?? '-',
           style: TextStyle(
